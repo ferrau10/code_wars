@@ -1,3 +1,4 @@
+#from the code wars challenge: https://www.codewars.com/kata/53368a47e38700bd8300030d
 
 names = [ {'name': 'Bart'}, {'name': 'Lisa'}, {'name': 'Maggie'} ]
 s = ''

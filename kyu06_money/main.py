@@ -1,4 +1,4 @@
-#from the code wars challenge: https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8/solutions/python
+#from the code wars challenge: https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8
 
 def tickets(people):
     clerk = []

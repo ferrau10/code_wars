@@ -1,5 +1,5 @@
 import unittest
-import money.main as main
+import kyu06_money.main as main
 
 class KataMoneyTests(unittest.TestCase): 
     
