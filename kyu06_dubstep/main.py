@@ -3,9 +3,5 @@
 def song_decoder(song):
     song = ' '.join(song.split('WUB'))
     song = ' '.join(song.split())
-    while song[0] == ' ':
-        song = song[1:]
-    while song[-1] == ' ':
-        song = song[:-1]
 
     return song 
