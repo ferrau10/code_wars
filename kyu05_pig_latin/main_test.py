@@ -1,5 +1,5 @@
 import unittest
-import kyu06_pig_latin.main as main
+import kyu05_pig_latin.main as main
 
 class KataFindUniq(unittest.TestCase): 
     
