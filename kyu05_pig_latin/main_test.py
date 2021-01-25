@@ -1,7 +1,7 @@
 import unittest
 import kyu05_pig_latin.main as main
 
-class KataFindUniq(unittest.TestCase): 
+class KataPigLatin(unittest.TestCase): 
     
     def test_pig_it(self):
         text = 'Pig latin is cool'
