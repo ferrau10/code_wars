@@ -1,20 +1,13 @@
 import unittest
-import kyu05_human_time.main as main
+import kyu05_calc_functions.main as main
 
 class KataHumanTime(unittest.TestCase): 
     
-    def test_make_readable_zero(self):
-        seconds = 0
-        expected = "00:00:00"
-        actual = main.make_readable(seconds)
-        self.assertEqual(actual, expected)
-
-    def test_make_readable_overflow(self):
-        seconds = 359999
-        expected = "99:59:59"
-        actual = main.make_readable(seconds)
-        self.assertEqual(actual, expected)
-
+    def test_all_functions(self):
+        self.assertEqual(main.seven(main.times(main.five())), 35)
+        self.assertEqual(main.four(main.plus(main.nine())), 13)
+        self.assertEqual(main.eight(main.minus(main.three())), 5)
+        self.assertEqual(main.six(main.divided_by(main.two())), 3)
 
 if __name__ == '__main__':
     unittest.main()
